@@ -1027,82 +1027,6 @@ module.exports = {
     "zkEVM/zknode/zknode-overview",
     {
       type: "category",
-      label: "zkProver",
-      link: {
-        type: "generated-index"
-      },
-      items:[
-        "zkEVM/zkProver/overview",
-        "zkEVM/zkProver/zkprover-design",
-        {
-          type: "category",
-          label: "mFibonacci SM",
-          link: {
-            type: "generated-index"
-          },
-          items:[
-            "zkEVM/zkProver/mfibonacci-overview",
-            "zkEVM/zkProver/mfibonacci-example",
-            "zkEVM/zkProver/commitment-scheme",
-            "zkEVM/zkProver/verification-scheme",
-            "zkEVM/zkProver/pil-stark",
-            "zkEVM/zkProver/pil-stark-demo",
-          ]
-        },
-        {
-          type: "category",
-          label: "Generic SM",
-          link: {
-            type: "generated-index"
-          },
-          items:[
-            "zkEVM/zkProver/intro-generic-sm",
-            "zkEVM/zkProver/exec-trace-correct",
-            "zkEVM/zkProver/ending-program",
-            "zkEVM/zkProver/program-counter"
-          ]
-        },
-        {
-          type: "category",
-          label: "Storage SM",
-          link: {
-            type: "generated-index"
-          },
-          items:[
-            "zkEVM/zkProver/intro-storage-sm",
-            "zkEVM/zkProver/sparse-merkle-tree",
-            "zkEVM/zkProver/simple-smt",
-            "zkEVM/zkProver/detailed-smt-concepts",
-            "zkEVM/zkProver/basic-smt-ops",
-            "zkEVM/zkProver/construct-key-path",
-            "zkEVM/zkProver/storage-sm-mechanism",
-            "zkEVM/zkProver/executor-pil",
-          ]
-        },
-        "zkEVM/zkProver/arithmetic-sm",
-        "zkEVM/zkProver/binary-sm",
-        "zkEVM/zkProver/memory-sm",
-        "zkEVM/zkProver/mem-align-sm",
-        {
-          type: "category",
-          label: "Hashing SM",
-          link: {
-            type: "generated-index"
-          },
-          items:[
-            "zkEVM/zkProver/intro-hashing-sm",
-            "zkEVM/zkProver/keccak-framework",
-            "zkEVM/zkProver/paddingkk-sm",
-            "zkEVM/zkProver/paddingkk-bit-sm",
-            "zkEVM/zkProver/bits2field-sm",
-            "zkEVM/zkProver/keccakf-sm",
-            "zkEVM/zkProver/poseidon-sm",
-          ]
-        },
-      ]
-    },
-    {
-      type: "category",
       label: "How To Guides",
       link: {
         type: "generated-index"
@@ -1111,6 +1035,109 @@ module.exports = {
         "zkEVM/develop",
         "zkEVM/setup-local-node",
         "zkEVM/setup-production-node",
+      ]
+    },
+    {
+      type: "category",
+      label: "zkProver",
+      link: {
+        type: "generated-index"
+      },
+      items:[
+       {
+          type: "category",
+          label: "Introduction",
+          link: {
+            type: "generated-index"
+          },
+          items:[
+            "zkEVM/zkProver/overview",
+            "zkEVM/zkProver/zkprover-design",
+          ]
+        },
+        {
+          type: "category",
+          label: "Basics of zkProver",
+          link: {
+            type: "generated-index"
+          },
+          items:[
+            {
+              type: "category",
+              label: "mFibonacci SM",
+              link: {
+                type: "generated-index"
+              },
+              items:[
+                "zkEVM/zkProver/mfibonacci-overview",
+                "zkEVM/zkProver/mfibonacci-example",
+                "zkEVM/zkProver/commitment-scheme",
+                "zkEVM/zkProver/verification-scheme",
+                "zkEVM/zkProver/pil-stark",
+                "zkEVM/zkProver/pil-stark-demo",
+              ]
+            },
+            {
+              type: "category",
+              label: "Generic SM",
+              link: {
+                type: "generated-index"
+              },
+              items:[
+                "zkEVM/zkProver/intro-generic-sm",
+                "zkEVM/zkProver/exec-trace-correct",
+                "zkEVM/zkProver/ending-program",
+                "zkEVM/zkProver/program-counter"
+              ]
+            },
+          ]
+        },
+        {
+          type: "category",
+          label: "Secondary State Machines",
+          link: {
+            type: "generated-index"
+          },
+          items:[
+            "zkEVM/zkProver/arithmetic-sm",
+            "zkEVM/zkProver/binary-sm",
+            "zkEVM/zkProver/memory-sm",
+            "zkEVM/zkProver/mem-align-sm",
+            {
+              type: "category",
+              label: "Storage SM",
+              link: {
+                type: "generated-index"
+              },
+              items:[
+                "zkEVM/zkProver/intro-storage-sm",
+                "zkEVM/zkProver/sparse-merkle-tree",
+                "zkEVM/zkProver/simple-smt",
+                "zkEVM/zkProver/detailed-smt-concepts",
+                "zkEVM/zkProver/basic-smt-ops",
+                "zkEVM/zkProver/construct-key-path",
+                "zkEVM/zkProver/storage-sm-mechanism",
+                "zkEVM/zkProver/executor-pil",
+              ]
+            },
+            {
+              type: "category",
+              label: "Hashing SM",
+              link: {
+                type: "generated-index"
+              },
+              items:[
+                "zkEVM/zkProver/intro-hashing-sm",
+                "zkEVM/zkProver/keccak-framework",
+                "zkEVM/zkProver/paddingkk-sm",
+                "zkEVM/zkProver/paddingkk-bit-sm",
+                "zkEVM/zkProver/bits2field-sm",
+                "zkEVM/zkProver/keccakf-sm",
+                "zkEVM/zkProver/poseidon-sm",
+              ]
+            },
+          ]
+        },
       ]
     },
     {
